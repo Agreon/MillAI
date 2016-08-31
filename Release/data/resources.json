@@ -1,0 +1,11 @@
+{
+	"textures": [
+		{ "name": "agreon_logo", "src": "data/img/agreon_logo.png"},
+		{ "name": "black_stone", "src": "data/img/black_stone.png"},
+		{ "name": "white_stone", "src": "data/img/white_stone.png"},
+		{ "name": "brown_place", "src": "data/img/brown2.png"}
+	],
+	"fonts": [
+		{ "name": "roboto", "src": "data/roboto.ttf"}
+	]
+}

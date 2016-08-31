@@ -1,0 +1,7 @@
+[09:18:22] [INFO] 'GraphicsManager': Initialized Window and OpenGL.
+[09:18:22] [INFO] 'GraphicsManager': Loaded texture successfully. agreon_logo | data/img/agreon_logo.png
+[09:18:22] [INFO] 'GraphicsManager': Loaded texture successfully. black_stone | data/img/black_stone.png
+[09:18:22] [INFO] 'GraphicsManager': Loaded texture successfully. white_stone | data/img/white_stone.png
+[09:18:22] [INFO] 'GraphicsManager': Loaded texture successfully. brown_place | data/img/brown2.png
+[09:18:22] [INFO] 'GraphicsManager': Loaded font file successful. roboto | data/roboto.ttf
+[09:18:31] [INFO] 'App': Shutting down..

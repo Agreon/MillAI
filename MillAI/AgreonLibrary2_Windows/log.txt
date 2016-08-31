@@ -1,0 +1,19 @@
+[13:40:41] [INFO] 'GraphicsManager': Initialized Window and OpenGL.
+[13:40:42] [INFO] 'GraphicsManager': Loaded texture successfully. agreon_logo | data/agreon_logo.png
+[13:40:42] [INFO] 'GraphicsManager': Loaded texture successfully. player_anim | data/player_right_anim.png
+[13:40:42] [INFO] 'GraphicsManager': Loaded font file successful. roboto | data/roboto.ttf
+[13:40:42] [INFO] 'SoundManager': Loaded Sound file successful. wolf_howl | data/wolf_howl.wav
+[13:40:42] [INFO] 'JSON Parser': Loading object: Skeleton
+[13:40:42] [INFO] 'JSON Parser': health: 20
+[13:40:42] [INFO] 'JSON Parser': dmg: 5
+[13:40:42] [INFO] 'JSON Parser': Loading object: Skeleton Archer
+[13:40:42] [INFO] 'JSON Parser': health: 10
+[13:40:42] [INFO] 'JSON Parser': dmg: 10
+[13:40:42] [INFO] 'JSON Parser': range: 20
+[13:40:42] [INFO] 'JSON Parser': Loading object: Skeleton Mage
+[13:40:42] [INFO] 'JSON Parser': health: 5
+[13:40:42] [INFO] 'JSON Parser': dmg: 15
+[13:40:42] [INFO] 'JSON Parser': 0
+[13:40:42] [INFO] 'JSON Parser': 1
+[13:40:42] [INFO] 'JSON Parser': 2
+[13:40:47] [INFO] 'Engine': Shutting down..

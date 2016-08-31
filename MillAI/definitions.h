@@ -1,0 +1,21 @@
+#pragma once
+
+enum APP_STATES{
+	STATE_NULL,
+	STATE_EXIT,
+	STATE_GAME
+};
+
+enum PLAYER_COLOR{
+	COLOR_NONE,
+	COLOR_WHITE,
+	COLOR_BLACK
+};
+
+enum STATES{
+	STATE_PLACE,
+	STATE_MOVE
+};
+
+const int FIELD_SIZE = 7;
+const int GAME_CHANGE_TURNS = 4;

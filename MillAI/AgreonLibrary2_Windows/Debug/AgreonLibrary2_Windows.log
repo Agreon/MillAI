@@ -1,0 +1,25 @@
+﻿Der Buildvorgang wurde am 29.08.2016 13:36:56 gestartet.
+     1>Projekt "C:\Users\Daniel\Dropbox\Projekte\AgreonLibrary2_Windows\AgreonLibrary2_Windows\AgreonLibrary2_Windows.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Animation.cpp main.cpp
+         main.cpp
+     1>c:\users\daniel\dropbox\projekte\agreonlibrary2_windows\agreonlibrary2_windows\main.cpp(34): warning C4018: '<': Konflikt zwischen 'signed' und 'unsigned'
+     1>c:\users\daniel\dropbox\projekte\agreonlibrary2_windows\agreonlibrary2_windows\main.cpp(63): warning C4018: '<': Konflikt zwischen 'signed' und 'unsigned'
+     1>c:\users\daniel\dropbox\projekte\agreonlibrary2_windows\agreonlibrary2_windows\main.cpp(81): warning C4101: 'event': Unreferenzierte lokale Variable
+         Code wird generiert...
+         Überspringen... (keine relevanten Änderungen gefunden)
+         Animation.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Daniel\Dropbox\Projekte\AgreonLibrary2_Windows\Debug\AgreonLibrary2_Windows.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib SDL2_image.lib SDL2_mixer.lib opengl32.lib glu32.lib ftgl_D.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Daniel\Dropbox\Projekte\AgreonLibrary2_Windows\Debug\AgreonLibrary2_Windows.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Daniel\Dropbox\Projekte\AgreonLibrary2_Windows\Debug\AgreonLibrary2_Windows.lib" /MACHINE:X86 Debug\Animation.obj
+         Debug\GameObject.obj
+         Debug\Graphics.obj
+         Debug\Input.obj
+         Debug\Log.obj
+         Debug\main.obj
+         Debug\Sound.obj
+         AgreonLibrary2_Windows.vcxproj -> C:\Users\Daniel\Dropbox\Projekte\AgreonLibrary2_Windows\Debug\AgreonLibrary2_Windows.exe
+     1>Die Erstellung des Projekts "C:\Users\Daniel\Dropbox\Projekte\AgreonLibrary2_Windows\AgreonLibrary2_Windows\AgreonLibrary2_Windows.vcxproj" ist abgeschlossen, Build Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:01:28.50
