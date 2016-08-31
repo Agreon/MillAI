@@ -82,7 +82,6 @@ State::State() {
 	m_blocked = false;
 }
 
-//TODO: Check if copying is workin
 State::State(const State &_state){
 	m_fields = _state.m_fields;
 	m_currentPlayer = _state.m_currentPlayer;
@@ -211,7 +210,6 @@ bool State::stonesRemovable(int _color) {
 
 /*
 * Returns the amount of mills on a state for a specified player
-* TODO: New version
 */
 int State::millAmount(int _color){
 	int amount = 0;

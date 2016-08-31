@@ -51,6 +51,9 @@ void Board::draw(){
 	int currentPlayer = m_currentState->getPlayer();
 	int nextPlayer = currentPlayer == COLOR_WHITE ? COLOR_BLACK : COLOR_WHITE;
 
+	if (blocked)
+		return;
+
 	for (int i = 0; i < FIELD_SIZE; i++){
 		for (int j = 0; j < FIELD_SIZE; j++){
 			

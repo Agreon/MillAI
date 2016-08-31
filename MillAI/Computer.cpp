@@ -18,22 +18,23 @@ void Computer::turn(){
 
 	int nextPlayer = (m_color == COLOR_WHITE) ? COLOR_BLACK : COLOR_WHITE;
 
-	
 	calculate(m_board->getState());
 
-	m_board->getState()->setPlayer(nextPlayer);
+	// Unfortunately didn't get the async to work in time :/
+	/*m_board->getState()->setBlocked(true);
+	std::thread(&Computer::calculate, this, m_board->getState()).detach();
+*/
 }
 
 /*
-	TODO: Comment
+	Calculates the best possible move with the negamax algorithm 
 */
 void Computer::calculate(State *_state){
+
 	_state->setPlayer(m_color);
 
 	int currentPlayer = m_color;
 	int nextPlayer = (m_color == COLOR_WHITE) ? COLOR_BLACK : COLOR_WHITE;
-	
-	int max = -10001, depth = 6, alpha = -10000, beta = 10000, ret, tmpX = -1, tmpY = -1;
 
 	std::vector<Move> moves;	
 
@@ -55,7 +56,7 @@ void Computer::calculate(State *_state){
 		moves = moving(_state, nextPlayer);
 	}
 	
-	Move finalTurn;
+	Move finalTurn = Move();
 	
 	// Check for equal moves
 	if (moves.size() > 1){
@@ -99,14 +100,15 @@ void Computer::calculate(State *_state){
 	high_resolution_clock::time_point t2 = high_resolution_clock::now();
 
 	std::cout << "Computer calculated turn in " << (double)duration_cast<milliseconds>(t2 - t1).count() / 1000 << std::endl;
+
+	_state->setBlocked(false);
+	_state->setPlayer(nextPlayer);
 }
 
 std::vector<Move> Computer::placing(State *_state, int _nextPlayer){
 	std::vector<Move> moves;
 
 	int max = -10001, depth = 6, alpha = -10000, beta = 10000;
-
-	depth = 4; //
 
 	Move retMove;
 
@@ -150,8 +152,6 @@ std::vector<Move> Computer::moving(State *_state, int _nextPlayer){
 	std::vector<Move> moves;
 
 	int max = -10001, depth = 8, alpha = -10000, beta = 10000;
-
-	depth = 6; //
 
 	Move retMove;
 
@@ -395,7 +395,7 @@ int Computer::negamax(State &_state, int _depth, int _alpha, int _beta){
 		}
 	}
 	// Jumping
-	/*else if (_state.stoneAmount(nextPlayer) == 3){
+	else if (_state.stoneAmount(nextPlayer) == 3){
 		for (int i = 0; i < FIELD_SIZE; i++) {
 			for (int j = 0; j < FIELD_SIZE; j++) {
 				if (_state.get(i, j)->color == nextPlayer) {
@@ -437,7 +437,7 @@ int Computer::negamax(State &_state, int _depth, int _alpha, int _beta){
 				}
 			}
 		}
-	}*/
+	}
 	// Moving
 	else if (_state.getGameState() == STATE_MOVE){
 		for (int i = 0; i < FIELD_SIZE; i++) {

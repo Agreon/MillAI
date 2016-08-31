@@ -1,7 +1,14 @@
-[09:18:22] [INFO] 'GraphicsManager': Initialized Window and OpenGL.
-[09:18:22] [INFO] 'GraphicsManager': Loaded texture successfully. agreon_logo | data/img/agreon_logo.png
-[09:18:22] [INFO] 'GraphicsManager': Loaded texture successfully. black_stone | data/img/black_stone.png
-[09:18:22] [INFO] 'GraphicsManager': Loaded texture successfully. white_stone | data/img/white_stone.png
-[09:18:22] [INFO] 'GraphicsManager': Loaded texture successfully. brown_place | data/img/brown2.png
-[09:18:22] [INFO] 'GraphicsManager': Loaded font file successful. roboto | data/roboto.ttf
-[09:18:31] [INFO] 'App': Shutting down..
+[21:42:05] [INFO] 'GraphicsManager': Initialized Window and OpenGL.
+[21:42:05] [INFO] 'GraphicsManager': Loaded texture successfully. agreon_logo | data/img/agreon_logo.png
+[21:42:05] [INFO] 'GraphicsManager': Loaded texture successfully. black_stone | data/img/black_stone.png
+[21:42:05] [INFO] 'GraphicsManager': Loaded texture successfully. white_stone | data/img/white_stone.png
+[21:42:05] [INFO] 'GraphicsManager': Loaded texture successfully. light_green_stone | data/img/light_green_stone.png
+[21:42:05] [INFO] 'GraphicsManager': Loaded texture successfully. green_stone | data/img/green_stone.png
+[21:42:05] [INFO] 'GraphicsManager': Loaded texture successfully. red_stone | data/img/red_stone.png
+[21:42:05] [INFO] 'GraphicsManager': Loaded texture successfully. brown_place | data/img/brown_place.png
+[21:42:05] [INFO] 'GraphicsManager': Loaded texture successfully. cursor | data/img/cursor.png
+[21:42:05] [INFO] 'GraphicsManager': Loaded font file successful. roboto | data/roboto.ttf
+[21:42:05] [INFO] 'SoundManager': Loaded Sound file successful. place | data/sound/place.wav
+[21:42:05] [INFO] 'SoundManager': Loaded Sound file successful. move | data/sound/move.ogg
+[21:42:19] [INFO] 'App': Shutting down..
+[21:42:19] [INFO] 'SoundManager': Shutting down Sound...

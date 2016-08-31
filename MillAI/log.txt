@@ -1,13 +1,14 @@
-[20:47:24] [INFO] 'GraphicsManager': Initialized Window and OpenGL.
-[20:47:24] [INFO] 'GraphicsManager': Loaded texture successfully. agreon_logo | data/img/agreon_logo.png
-[20:47:24] [INFO] 'GraphicsManager': Loaded texture successfully. black_stone | data/img/black_stone.png
-[20:47:24] [INFO] 'GraphicsManager': Loaded texture successfully. white_stone | data/img/white_stone.png
-[20:47:24] [INFO] 'GraphicsManager': Loaded texture successfully. light_green_stone | data/img/light_green_stone.png
-[20:47:24] [INFO] 'GraphicsManager': Loaded texture successfully. green_stone | data/img/green_stone.png
-[20:47:24] [INFO] 'GraphicsManager': Loaded texture successfully. red_stone | data/img/red_stone.png
-[20:47:24] [INFO] 'GraphicsManager': Loaded texture successfully. brown_place | data/img/brown_place.png
-[20:47:24] [INFO] 'GraphicsManager': Loaded texture successfully. cursor | data/img/cursor.png
-[20:47:24] [INFO] 'GraphicsManager': Loaded font file successful. roboto | data/roboto.ttf
-[20:47:24] [INFO] 'SoundManager': Loaded Sound file successful. place | data/sound/place.wav
-[20:47:24] [INFO] 'SoundManager': Loaded Sound file successful. move | data/sound/move.ogg
-[20:49:36] [ERROR] 'SoundManager': ERROR: Could not play Sound with unkown ID! Name: remove
+[21:41:53] [INFO] 'GraphicsManager': Initialized Window and OpenGL.
+[21:41:53] [INFO] 'GraphicsManager': Loaded texture successfully. agreon_logo | data/img/agreon_logo.png
+[21:41:53] [INFO] 'GraphicsManager': Loaded texture successfully. black_stone | data/img/black_stone.png
+[21:41:53] [INFO] 'GraphicsManager': Loaded texture successfully. white_stone | data/img/white_stone.png
+[21:41:53] [INFO] 'GraphicsManager': Loaded texture successfully. light_green_stone | data/img/light_green_stone.png
+[21:41:53] [INFO] 'GraphicsManager': Loaded texture successfully. green_stone | data/img/green_stone.png
+[21:41:53] [INFO] 'GraphicsManager': Loaded texture successfully. red_stone | data/img/red_stone.png
+[21:41:53] [INFO] 'GraphicsManager': Loaded texture successfully. brown_place | data/img/brown_place.png
+[21:41:53] [INFO] 'GraphicsManager': Loaded texture successfully. cursor | data/img/cursor.png
+[21:41:53] [INFO] 'GraphicsManager': Loaded font file successful. roboto | data/roboto.ttf
+[21:41:53] [INFO] 'SoundManager': Loaded Sound file successful. place | data/sound/place.wav
+[21:41:53] [INFO] 'SoundManager': Loaded Sound file successful. move | data/sound/move.ogg
+[21:42:01] [INFO] 'App': Shutting down..
+[21:42:01] [INFO] 'SoundManager': Shutting down Sound...

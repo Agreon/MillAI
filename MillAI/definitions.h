@@ -18,4 +18,4 @@ enum STATES{
 };
 
 const int FIELD_SIZE = 7;
-const int GAME_CHANGE_TURNS = 4;
+const int GAME_CHANGE_TURNS = 9;

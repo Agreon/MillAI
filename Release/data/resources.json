@@ -3,9 +3,17 @@
 		{ "name": "agreon_logo", "src": "data/img/agreon_logo.png"},
 		{ "name": "black_stone", "src": "data/img/black_stone.png"},
 		{ "name": "white_stone", "src": "data/img/white_stone.png"},
-		{ "name": "brown_place", "src": "data/img/brown2.png"}
+		{ "name": "light_green_stone", "src": "data/img/light_green_stone.png"},
+		{ "name": "green_stone", "src": "data/img/green_stone.png"},
+		{ "name": "red_stone", "src": "data/img/red_stone.png"},
+		{ "name": "brown_place", "src": "data/img/brown_place.png"},
+		{ "name": "cursor", "src": "data/img/cursor.png"}
 	],
 	"fonts": [
 		{ "name": "roboto", "src": "data/roboto.ttf"}
+	],
+	"sounds": [
+		{ "name": "place", "src": "data/sound/place.wav"},
+		{ "name": "move", "src": "data/sound/move.ogg"}
 	]
 }

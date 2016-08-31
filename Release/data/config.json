@@ -1,7 +1,7 @@
 {
 	"AppName": "MillAI",
-	"ScreenWidth": 1280,
-	"ScreenHeight": 768,
+	"ScreenWidth": 600,
+	"ScreenHeight": 630,
 	"ResourceFile": "data/resources.json",
 	"AI_TREE_DEPTH": 6,
 	"AI_TREE_DEPTH_ADV": 8

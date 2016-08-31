@@ -32,6 +32,8 @@ public:
 	void setStatus1(string _text);
 	void setStatus2(string _text);
 
+	bool blocked = false;
+
 private:
 	AL::Graphics *m_Graphics;
 	State *m_currentState;
